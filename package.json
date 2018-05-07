@@ -8,7 +8,8 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "gh-pages": "ng build --prod --base-href https://mdoing.github.io/bdd-brewing/ && ngh"
   },
   "private": true,
   "dependencies": {
